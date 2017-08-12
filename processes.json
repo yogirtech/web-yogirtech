@@ -1,0 +1,19 @@
+{
+  "apps": [{
+      "name": "yogirtech-cluster",
+      "script": "server.js",
+      "instances": 2,
+      "exec_mode": "cluster",
+      "max_memory_restart": "260M",
+      "node_args": "--expose-gc",
+      "max_restarts": 5,
+      "autorestart": true,
+      "merge_logs": true
+    },
+    {
+      "name": "yogirtech",
+      "script": "server.js",
+      "exec_mode": "fork"
+    }
+  ]
+}

@@ -65,6 +65,11 @@
   text-decoration: none;
   color: #fff;
 }
+ul {
+  li {
+    list-style: none;
+  }
+}
 
 @media (max-width: 500px) {
   .top-border {	

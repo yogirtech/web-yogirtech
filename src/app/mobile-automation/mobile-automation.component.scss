@@ -7,11 +7,22 @@
   width: 100%;
   line-height: 2;
   .grid-column-1 {
-    padding: 15px;
+    padding: 25px;
     flex: 1;
     box-sizing: border-box;
     flex-basis: 40%;
-    margin: 15px;
+
+    background-color: #FF8000;
+    color: white;
+  }
+  .grid-column-2 {
+    padding: 25px;
+    flex: 1;
+    box-sizing: border-box;
+    flex-basis: 40%;
+
+    background-color: white;
+    color: #FF8000;
   }
   .title {
     margin-left: 15px;

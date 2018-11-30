@@ -4,7 +4,7 @@ header {
 }
 
 .logo {
-  height: 2rem;
+  height: 5rem;
   display: block;
   background-repeat: no-repeat;
   background-position: center;
@@ -354,4 +354,9 @@ footer {
 .rssBtn:hover{
       color: #e88845;
       background: #fff;
+}
+
+.menu-item {
+  float: right;
+  text-align: left;
 }
